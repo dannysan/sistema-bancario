@@ -46,7 +46,6 @@ public class Cliente {
     public Boolean getEstado() { return estado; }
     public void setEstado(Boolean estado) { this.estado = estado; }
 
-    // 👇 Métodos de conveniencia para acceder a los datos de la Persona
     // Esto simula lo que harías si Cliente "heredara" de Persona
     @JsonProperty("nombre")
     public String getNombre() { return persona != null ? persona.getNombre() : null; }

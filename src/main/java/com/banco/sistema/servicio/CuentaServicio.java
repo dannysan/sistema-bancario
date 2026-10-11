@@ -65,7 +65,6 @@ public class CuentaServicio {
 					+ "Elimine primero sus movimientos.");
 		}
 
-		// Baja lógica: cambia estado a false
 		existente.setEstado(false);
 		cuentaRepositorio.save(existente);
 	}
